@@ -1,5 +1,3 @@
-# CustomFontStyle
-自定义字体样式——艺术字生成器
 ##### 使用步骤
 1. 创建assets
 
@@ -10,4 +8,5 @@
  AssetManager assets = getAssets();//获取AssetManager引用
  Typeface typeface = Typeface.createFromAsset(assets, "fangzhengcuyuan.ttf");//创建Typeface对象
  tv_show.setTypeface(typeface);
+
 ...
